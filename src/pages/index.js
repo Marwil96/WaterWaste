@@ -1,12 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import InfiniteShort from '../images/InfiniteShort.gif'
-import Pipe from "../images/Pipe.gif"
-import mockup from "../images/mockup.png"
 
 import "./index.scss"
 
@@ -22,16 +15,16 @@ const IndexPage = () => (
 
     <div className='TextSection'>
       <div className='Image-Text-Row'>
-        <img src={InfiniteShort} />
+        <img src='/InfiniteShort.gif' />
         <span>It's hard to grip, as water feels like an infinite resource to us that have it readily available, but we all know that this line of thinking is non-viable for a sustainable future. </span>
       </div>
       <span>That's why Waterwaster exists. You can now use the app to see how much water you use each month with information directly from your water-bills. <br/> Compare with your friends and family and the world average. See how much water you use compared to those in vulnerable areas of the world. And set your own goals, but be careful not to overfill the cup!</span>
-      <img className='TextSection__pipe' src={Pipe} />
+      <img className='TextSection__pipe' src='/Pipe.gif' />
     </div>
     <div className='TextSection TextSection__blue TextSection__mockup'>
       <div className='Image-Text-Row'>
         <span>The gamification elements encourages you to lessen your usage and think twice before watering your lawn in a approachable manner.<br /><br /> To make a difference we have to show it like it is. And educate those who are not in the stream.</span>
-        <img src={mockup}/>
+        <img src='/mockup.png'/>
       </div>
     </div>
     <span style={{marginTop:200, marginBottom:64}}>Hyper Island Application 2020  @Ludvig Martinsson</span>
